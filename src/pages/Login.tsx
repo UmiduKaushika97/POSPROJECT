@@ -53,7 +53,7 @@ const Login = () => {
 
   return (
     <div style={{ maxWidth: 400, margin: 'auto', padding: 20 }}>
-      <h2>Login</h2>
+      <h2 className="text-center text-2xl font-bold">Login</h2>
        <form onSubmit={formik.handleSubmit}>
 
       <TextInput

@@ -13,22 +13,18 @@ const TextInput: React.FC <TextInputProps> = ({ label, type = 'text', placeholde
 
 
   return (
-    <div style={{ marginBottom: '1rem' }}>
-      {label && <label style={{ display: 'block', marginBottom: '4px' }}>{label}</label>}
-      <input
-        type={type}
-        name={name}
-        placeholder={placeholder}
-        value={value}
-        onChange={onChange}
-        style={{
-          padding: '8px',
-          width: '100%',
-          borderRadius: '4px',
-          border: '1px solid #ccc'
-        }}
-      />
-    </div>
+    <div className="mb-4">
+  {label && <label className="block mb-1 text-sm font-medium text-gray-700">{label}</label>}
+  <input
+    type={type}
+    name={name}
+    placeholder={placeholder}
+    value={value}
+    onChange={onChange}
+    className="w-full p-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
+  />
+</div>
+
   )
 }
 
