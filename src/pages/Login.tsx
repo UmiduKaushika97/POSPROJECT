@@ -41,7 +41,7 @@ const Login = () => {
     onSubmit: ({ username, password }) => {
       if (username === 'admin' && password === 'admin123') {
         localStorage.setItem('role', 'admin')
-        navigate('/admin')
+        navigate('/admin/dashboard')
       } else if (username === 'user' && password === 'user123') {
         localStorage.setItem('role', 'user')
         navigate('/user')

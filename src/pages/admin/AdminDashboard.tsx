@@ -1,5 +1,5 @@
 import React from 'react'
-import Adduser from './Adduser'
+// import Adduser from './Adduser'
 
 
 
@@ -8,7 +8,7 @@ const AdminDashboard = () => {
     <div style={{ padding: 20 }}>
       <h1>Admin Dashboard</h1>
       <p>Welcome, Admin!</p>
-      <Adduser/>
+      {/* <Adduser/> */}
     </div>
   )
 }

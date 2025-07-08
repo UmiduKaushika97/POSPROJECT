@@ -3,7 +3,7 @@ import React from 'react'
 const Adduser = () => {
   return (
     <div>
-      <h1>asybgiy</h1>
+      <h1>Add user</h1>
     </div>
   )
 }
