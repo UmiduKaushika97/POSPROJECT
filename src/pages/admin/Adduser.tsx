@@ -1,4 +1,5 @@
 import React from 'react'
+import app from "../../../src/firebaseConfig";
 
 const Adduser = () => {
   return (
